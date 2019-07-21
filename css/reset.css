@@ -1,0 +1,88 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+body,
+ul,
+li,
+ol,
+dl,
+dt,
+dd,
+p,input,button {
+	margin: 0;
+	padding: 0;
+}
+
+ul,
+ol {
+	list-style: none;
+}
+
+input,
+button {
+	/*轮廓线*/
+	outline: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+b,
+strong {
+	font-weight: 400;
+}
+
+i,
+em {
+	/* 不倾斜*/
+	font-style: normal;
+}
+
+s,
+u,
+del,
+ins,
+a {
+	text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size: 100%;
+}
+
+
+/*风格*/
+
+body {
+	background: #FFF3E6;
+}
+
+body {
+	font: 14px/1.5 tahoma, arial, 'Hiragino Sans GB', '\5b8b\4f53', sans-serif;
+	color: #000;
+}
+a{
+	color: #000;
+}
+a:hover {
+	color: lightcoral;
+}
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden
+}
